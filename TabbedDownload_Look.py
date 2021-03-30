@@ -3,10 +3,10 @@
 import looker_sdk
 
 import os
-os.environ['LOOKERSDK_BASE_URL'] = 'https://dcl.api.dev.looker.com'
+os.environ['LOOKERSDK_BASE_URL'] = '<looker host>'
 os.environ['LOOKERSDK_API_VERSION'] = '3.1'
-os.environ['LOOKERSDK_CLIENT_ID'] = 'BPdgzrT9nqrJHjwbJByn'
-os.environ['LOOKERSDK_CLIENT_SECRET'] = 'Kyg2D2xdd95B4RpYc3RRBgPN'
+os.environ['LOOKERSDK_CLIENT_ID'] = '<api id>'
+os.environ['LOOKERSDK_CLIENT_SECRET'] = '<api secret>'
 
 # init the sdk
 sdk = looker_sdk.init31("looker.ini")
@@ -32,7 +32,7 @@ drive = GoogleDrive(gauth)
 ### the actual loop
 
 # initialize variables
-looks = ['2131', '2132', '2133']
+looks = [<comma delimited list of 'ID's>]
 lislen = len(looks)
 titles = []
 
