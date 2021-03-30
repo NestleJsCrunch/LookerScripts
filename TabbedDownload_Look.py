@@ -32,7 +32,7 @@ drive = GoogleDrive(gauth)
 
 ### the actual loop ###
 
-looks = [<comma delimited list of Look 'IDs', eg: '1','2','3']
+looks = [<comma delimited list of Look 'IDs', eg: '1','2','3'>]
 lislen = len(looks)
 
 with pd.ExcelWriter('output.xlsx') as writer: 
