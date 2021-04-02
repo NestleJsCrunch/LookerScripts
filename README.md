@@ -11,6 +11,6 @@ Please read these important caveats before using scripts in this repository:
 
 **The Scripts**
 
-- DownloadMultiTileTabbed - Downloads a singular dashboard with any number of tiles as a Tabbed Excel file
-- DownloadMultiLookTabbed - Downloads any number of Looks as a single Tabbed Excel file
-- DownloadDashboardUnlimited - Downloads unlimited results from a singular dashboard with any number of tiles as a Tabbed Excel file. 
+- `DownloadMultiTileTabbed` - Downloads a singular dashboard with any number of tiles as a Tabbed Excel file
+- `DownloadMultiLookTabbed` - Downloads any number of Looks as a single Tabbed Excel file
+- `DownloadDashboardUnlimited` - Downloads unlimited results from a singular dashboard with any number of tiles as a Tabbed Excel file. 
