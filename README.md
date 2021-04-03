@@ -16,8 +16,9 @@ Please read these before using scripts in this repository:
 - `DownloadMultiTileTabbed` - Downloads a singular dashboard with any number of tiles as a Tabbed Excel file
 - `DownloadMultiLookTabbed` - Downloads any number of Looks as a single Tabbed Excel file
 - `DownloadDashboardUnlimited` - Downloads unlimited results from a singular dashboard with any number of tiles as a Tabbed Excel file. 
-- `DownloadDifferentDelimiter` - Allows you to set a custom delimiter for a csv download. 
-- `DownloadCSVorExcel` - Allows you to download a dashboard as a series of either `csv` or `xlsx` files instead of the default `csv_zip`
+- `DownloadDifferentDelimiter` - Downloads `csv`s with a custom delimiter
+- `DownloadCSVorExcel` - Downloads a dashboard as a series of either `csv` or `xlsx` files instead of the default `csv_zip`
+- `DownloadUnlimitedMergedv1` - Downloads unlimited results from a merged results dashboard tile, as a set of `csv` files (one for each merged query). 
 
 **JS / Sheet Scripts**
 
