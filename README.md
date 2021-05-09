@@ -19,7 +19,7 @@ Please read these before using scripts in this repository:
 - `DownloadDifferentDelimiter` - Downloads `csv`s with a custom delimiter
 - `DownloadCSVorExcel` - Downloads a dashboard as a series of either `csv` or `xlsx` files instead of the default `csv_zip`
 - `DownloadUnlimitedMergedv1` - Downloads unlimited results from a merged results dashboard tile, as a set of `csv` files (one for each merged query). 
-- `DownloadUnlimitedMergedv2` - Downloads unlimited results from a merged results dashboard tile, as *a single CSV with merged queries joined*. This has limitations, see readme.
+- `DownloadUnlimitedMergedv2` - Downloads unlimited results from a merged results dashboard tile, as *a single CSV with merged queries joined*. This has limitations, see notes in script.
 
 **JS / Sheet Scripts**
 
